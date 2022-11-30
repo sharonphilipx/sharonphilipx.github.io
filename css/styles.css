@@ -1,0 +1,148 @@
+body{
+  margin:0;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #34626c;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2rem;
+  color: #34626c;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #495464;
+}
+
+a{
+  text-decoration: none;
+  color: #3C4048;
+  padding: 8px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  /* color: #f1f6f9; */
+  color: gray;
+}
+p{
+  line-height:2;
+  color: #40514E;
+}
+hr {
+margin: 50px auto 50px auto;
+border-style: none;
+border-top-style: dotted;
+border-color: #394867;
+border-width: 5px;
+width: 5%;
+}
+
+.top-container{
+  position:relative;
+  background-color: #d2f5e3;
+  padding-top: 100px;
+
+
+}
+
+.bottom-cloud{
+  position:absolute;
+  left:300px;
+  bottom:300px;
+}
+
+.top-cloud{
+  position:absolute;
+  right:400px;
+  top:50px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.code-img{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.book-img{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.sharon{
+  margin-top:50px;
+}
+
+.bottom-container{
+  position: relative;
+  margin-top: 45px;
+  padding: 40px;
+  background-color: #495464;
+  line-height: 2;
+}
+
+.bottom-container p{
+  /* color: #f1f6f9; */
+  /* color: #BAD1C2; */
+  color: white;
+}
+
+.bottom-container a{
+  color: white;
+}
+
+.bottom-container a:hover{
+  color: gray;
+}
+
+.btn{
+  line-height: 3;
+  margin:40px 0;
+  padding: 0 10px;
+  background-color: #495464;
+  border-radius: 12px;
+  color: white;
+  display:inline-block;
+  box-shadow: 0 9px #999;
+
+}
+.intro{
+  width:50%;
+  margin: auto;
+}
+.btn:hover{
+  background-color: #394867;
+}
+a:link{
+  text-decoration: none;
+
+}
+.btn:active{
+  background-color:  #495464;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* @media screen and (max_width:600px){
+  h1{
+    font-size: 36px;
+    line-height: 50px;
+  }
+} */
